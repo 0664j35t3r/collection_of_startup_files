@@ -3,6 +3,7 @@
 
 {
 	"rulers": [80],
+	"draw_white_space": "all",
 
 	"ignored_packages":
 	[
