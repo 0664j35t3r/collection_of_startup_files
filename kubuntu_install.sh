@@ -1,11 +1,14 @@
 #!/bin/sh
-apt-get update
+sudo apt-get update
 sudo apt-get install thunderbird -y
 sudo apt-get install kubuntu-restricted-extras -y
 sudo apt-get install chromium-browser -y
 sudo apt-get install terminator -y
 sudo apt-get install yakuake -y
 
+sudo add-apt-repository ppa:lyx-devel/release
+sudo apt-get update
+sudo apt-get install lyx
 
 sudo add-apt-repository ppa:linrunner/tlp -y
 sudo apt-get update
